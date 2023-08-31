@@ -1,4 +1,8 @@
-### Hi there 👋
+### Olá, Sou o Fernando 👋
+<h1 align="center">Hi, I'm Fernando Alves Machado</h1>
+
+<h3 align="center">A passionate frontend developer from Brasil</h3>
+<hr/>
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
