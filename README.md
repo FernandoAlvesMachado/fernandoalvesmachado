@@ -25,7 +25,7 @@ Sou **web designer e desenvolvedor front-end** em Campo Grande, MS. Ajudo empres
 
 - 🔭 Hoje estou construindo o **[GIRAVO](https://master-oficina-pro.vercel.app)**, um SaaS multi-tenant para oficinas e auto centers
 - 🤖 Estudando **IA aplicada**: agentes com **Python + Gemini**, busca em documentos e integração com bancos de dados
-- 🎨 Mais de **10 sites entregues para clientes reais**: landing pages, sites institucionais, portais e e-commerce
+- 🎨 Mais de **250 sites entregues para clientes reais**: landing pages, sites institucionais, portais e e-commerce
 - 💬 Pode me perguntar sobre **Next.js, React, Tailwind, UI/UX e landing pages que convertem**
 - ⚡ Curiosidade: meu cachorro se chama **Ringo**, nome de um refrigerante que eu tomava na minha cidade natal 🐶
 
@@ -85,6 +85,8 @@ Sou **web designer e desenvolvedor front-end** em Campo Grande, MS. Ajudo empres
 </table>
 
 ### 🎨 Sites entregues para clientes
+
+Mais de 250 projetos entregues. Alguns exemplos:
 
 | Projeto | Segmento | Link |
 | --- | --- | --- |
