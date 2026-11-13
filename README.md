@@ -13,9 +13,7 @@
   <a href="https://portfolio-six-tau-13.vercel.app"><img src="https://img.shields.io/badge/Portfólio-020c1b?style=for-the-badge&logo=vercel&logoColor=64ffda" alt="Portfólio" /></a>
   <a href="https://www.behance.net/fernandopwe"><img src="https://img.shields.io/badge/Behance-0a192f?style=for-the-badge&logo=behance&logoColor=64ffda" alt="Behance" /></a>
   <a href="https://instagram.com/fernando.phx"><img src="https://img.shields.io/badge/Instagram-112240?style=for-the-badge&logo=instagram&logoColor=64ffda" alt="Instagram" /></a>
-  <!-- LinkedIn: troque SEU-USUARIO pelo seu handle e descomente a linha abaixo
-  <a href="https://www.linkedin.com/in/SEU-USUARIO"><img src="https://img.shields.io/badge/LinkedIn-112240?style=for-the-badge&logo=linkedin&logoColor=64ffda" alt="LinkedIn" /></a>
-  -->
+  <a href="https://www.linkedin.com/in/fernando-alves-machado/"><img src="https://img.shields.io/badge/LinkedIn-112240?style=for-the-badge&logo=linkedin&logoColor=64ffda" alt="LinkedIn" /></a>
   <img src="https://komarev.com/ghpvc/?username=FernandoAlvesMachado&label=visitas&color=0a192f&style=for-the-badge" alt="Visitas ao perfil" />
 </p>
 
