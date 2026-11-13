@@ -1,0 +1,57 @@
+name: Atualizar cards do perfil
+
+# Gera os cards de estatísticas e a animação da cobrinha direto no repositório,
+# sem depender das instâncias públicas (que vivem fora do ar / com rate limit).
+on:
+  schedule:
+    - cron: "0 6 * * *" # todo dia às 03:00 (horário de Brasília)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-cards.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Card de estatísticas
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide=stars&hide_rank=true&hide_border=true&locale=pt-br&card_width=420&bg_color=020c1b&title_color=64ffda&icon_color=64ffda&text_color=e6f1ff
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Card de linguagens
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&locale=pt-br&card_width=380&bg_color=020c1b&title_color=64ffda&text_color=e6f1ff
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Cobrinha de contribuições
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile/snake.svg?palette=github-light&color_snake=#0a192f
+            profile/snake-dark.svg?palette=github-dark&color_snake=#64ffda
+
+      - name: Commit dos cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "chore: atualiza cards do perfil" || exit 0
+          git push
