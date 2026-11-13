@@ -90,15 +90,13 @@ Sou **web designer e desenvolvedor front-end** em Campo Grande, MS. Ajudo empres
 
 | Projeto | Segmento | Link |
 | --- | --- | --- |
-| **APVS Brasil** | Proteção veicular | [protecao-veicular-xi.vercel.app](https://protecao-veicular-xi.vercel.app) |
-| **ID Singular** | Educação corporativa | [id-singular-wireframe.vercel.app](https://id-singular-wireframe.vercel.app) |
-| **Adney Andrade** | Aulas de música | [professor-de-musica.vercel.app](https://professor-de-musica.vercel.app) |
-| **Boa Rifa** | Landing page + pack visual | [landing-page-boarifa.vercel.app](https://landing-page-boarifa.vercel.app) · [Pack Visual Pro](https://pack-divulgacao.vercel.app) |
-| **Gráfica Foco** | Gráfica | [landing-page-grafica-foco.vercel.app](https://landing-page-grafica-foco.vercel.app) |
-| **Headline** | Landing page | [headline-beta.vercel.app](https://headline-beta.vercel.app) |
-| **Desentupidora** | Serviços locais | [desentupidora-psi.vercel.app](https://desentupidora-psi.vercel.app) |
-| **Cuidadora** | Saúde e cuidados | [cuidadora-lilac.vercel.app](https://cuidadora-lilac.vercel.app) |
-| **Brinquedos** | Varejo | [brinquedos-chi.vercel.app](https://brinquedos-chi.vercel.app) |
+| **Wevia Hub** | Plataforma de gestão estratégica de pessoas | [weviahub.com](https://weviahub.com/) |
+| **ID Singular** | Treinamento e desenvolvimento de lideranças | [idsingular.com.br](https://idsingular.com.br/) |
+| **Instituto ISC** | Integração sensorial e saúde | [institutoisc.com.br](https://institutoisc.com.br/) |
+| **GIRAVO** | Landing page do SaaS para oficinas mecânicas | [landingpage-giravo.vercel.app](https://landingpage-giravo.vercel.app/) |
+| **Araguaia Transportes** | Transporte e logística | [araguaia-transportes.vercel.app](https://araguaia-transportes.vercel.app/) |
+| **NS Ingeniería Industrial** | Engenharia industrial no Paraguai (site em espanhol) | [nsingenieria.vercel.app](https://nsingenieria.vercel.app/es/) |
+| **LinkedIn Analyzer** | Análise premium de perfil do LinkedIn | [linkedin-analyzer-alpha.vercel.app](https://linkedin-analyzer-alpha.vercel.app/) |
 
 <p align="center"><a href="https://www.behance.net/fernandopwe">➡️ Veja o portfólio de design completo no Behance</a></p>
 
